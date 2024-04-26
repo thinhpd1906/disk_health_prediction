@@ -125,7 +125,7 @@ if __name__ == '__main__':
     device = Device()
     model = Model()
     device.get_device_name() 
-    device. ()  
+    device.get_smart_infor()  
     convertInput = ConvertInput()
     # print(device.smart)
     smart_infor = convertInput.convert(device.smart)
