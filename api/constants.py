@@ -111,3 +111,23 @@ LIST_SMART = [
     "smart_242_normalized",
     "smart_242_raw",
 ]
+
+
+SMART_MAP_STANDARD = {
+    "smart_9_raw": "power_on_hours",
+    "smart_12_raw": "power_cycle",
+    "smart_192_raw": "unsafe_shutdowns",
+    "smart_194_raw": "temperature",
+    "smart_1_raw": "read_error_rate"
+}
+
+SMART_IMPORTANT_TABLE_FIELD = {
+    "power_on_hours": "power_on_hours",
+    "power_cycle": "power_cycle",
+    "unsafe_shutdowns": "unsafe_shutdowns",
+    "temperature": "temperature",
+    "read_error_rate": "read_error_rate",
+    "serial_number": "serial_number",
+    "date": "date",
+    "class_prediction": "class_prediction",
+}
